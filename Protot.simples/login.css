@@ -1,0 +1,42 @@
+body {
+   background-image: url(https://img.freepik.com/vetores-gratis/ferramentas-de-aprendizagem-imprimiveis-modelo-de-quadro-de-fronteira_1308-160299.jpg?semt=ais_hybrid&w=740&q=80);
+   background-size: cover;
+
+login {
+   font-size: 30px;
+   color: rgba(77, 10, 10, 0.603);
+}
+
+} 
+.login-box {
+   width: 500px; mar;
+   margin: 200 px auto;
+   padding: 30;
+   background-color: rgb(194, 215, 235);
+   border: 0.5px solid black;
+   border-radius: 10px;
+   text-align: center;
+   
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+h1 {
+font-size: 28px;
+
+}
+input {
+   font-size: 18px;
+}
+button {
+   font-size: 12px;
+   background-color: rgb(113, 217, 224);
+   color: black;
+   width: 150px;
+   height: 40px;
+
+}
