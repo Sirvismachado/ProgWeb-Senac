@@ -1,0 +1,48 @@
+# 1 - Cenário
+" Um app escolar que ajuda os alunos a realizarem atividades e a ter acesso a todo o contéudo trabalhado em sala de aula"
+# 2 - Briefing
+
+## Qual o objetivo real do App?
+Permitir que todos os alunos e também seus responsáveis tenham acesso aos conteúdos trabalhado através de um resumo da aula e ao quadro de atividades.
+
+## Quem é o público alvo?
+Alunos e seus responsáveis.
+
+## O que o app precisa ter?
+1- Cadastro com login e senha
+2- Sequencia das turmas em ordem - do menor para o maior-
+3- Dentro de cada turma - a sequência de todas as matérias trabalhadas durante o ano letivo
+4- Em cada matéria - O rusmo da aula e atividades lançadas em ordem cronológica.
+5- As atividades devem ter dia e hora para inicio de acesso e entrega.
+6- Os alunos devem está atendo ao prazo de entrega de cada atividade lançada. Depois do fechamento da atividade, não será permitido a execução da atividade.
+6- Ao finalizar as atividades, deve aparecer a mensagem " Concluir atividade" ao clicar o aluno estará confirmando a finalização da atividade e não poderá voltar na mesma.
+7- Ao concluir, cada atividade será encaminhada automaticamente para o professor responsável pela matéria.
+8- Assim que a atividade for enviada, o aluno recebrá a mensagem " Parabéns!! Você concluiu sua atividade dentro do prazo"
+ 
+## Funcionalidade - RF
+Cada aluno fara o login com o número da sua matrícula e receberá uma senha que deverá ser redefinida no primeiro acesso.
+OS alunos devem receber uma mesagem de lembrete 1 dia antes das atividades fecharem
+
+## Usabilidade RNF
+Assim que o app for logado, uma lista de todas as matérias aparecerá e em cada matéria onde foi lançado o resumo da aula e/ou as atividades a serem trabalhadas, estará em destaque.
+Assim que a atividade for realizada e enviada, o aluno deve receber a confirmação de envio.
+
+## Confiabilidade RNF
+Todos os dados lançados nas atividades devem ser salvos automaticamente, para que, em caso da internet cair, o aluno não perca tudo que já foi feito.
+Caso a internet caia, ao voltar, os dados devem ser sincronizados automaticamente.
+## Desempenho RNF
+Consistencia durante o uso do app, não deve ter falhas nem travamento.
+
+As páginas devem ser acrregadas em no máximo 3 segundos.
+
+## Suportabilidade RNF
+Deve rodar em android e ios
+A interface deve se adaptar a diferentes tamanho de tela.
+# Estrutura (Mapa do site)
+Pagina inicial
+Formulário de Login
+Tela de Login 
+Listagem das matérias trabalhadas
+Calendário com as datas de entegra de cada atividadde, dentro de cada matéria.
+
+
