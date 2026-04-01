@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: monospace, sans-serif;
-    color: beige;
+    color: rgb(241, 241, 209);
     }
     
 h1{
@@ -31,25 +31,26 @@ p{
     margin-right: auto;
     width: 50%;
     display: inline-flex;
-    gap: 10px
+    gap: 30px;
+    
 }
 .container{
-    border: 10px;color: rgb(240, 226, 208);
-    margin:  auto;
+    border: 10px;color: rgb(243, 211, 198);
+    margin: auto;
     width: 600px;
     justify-items: center;
     
 }
 .lugares{
-    border: 2px solid rgb(233, 70, 21);
+    border: 2px transparent
     float: left;
     width: 400px;
     justify-items: center;
 }
 .lugar{
-    border: 1px solid;
+    border: 10px solid;
     background-color: black;
-    border-color: #ccc #999 #999 #ccc;
+    border-color: #eed276 #ecc375 #d68888 #eb8585;
     margin-bottom: 20px;
     padding: 10px;
     justify-items:center ;
